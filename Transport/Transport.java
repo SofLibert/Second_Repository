@@ -1,6 +1,7 @@
 package Transport;
 
 import Transport.AirTransport.AirTransport;
+import Transport.GroundTransport.GroundTransport;
 import Transport.WaterTransport.*;
 
 class Program{
@@ -11,6 +12,8 @@ class Program{
         waterTransport.DisplayInfo();
         AirTransport airTransport = new AirTransport();
         airTransport.DisplayInfo();
+        GroundTransport groundTransport = new GroundTransport();
+        groundTransport.DisplayInfo();
     }
 
 }
