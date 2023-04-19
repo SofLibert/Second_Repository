@@ -1,13 +1,16 @@
 package Transport;
 
+import Transport.AirTransport.AirTransport;
 import Transport.WaterTransport.*;
 
 class Program{
     public static void main(String[] args){
         Transport transport = new Transport();
         transport.FirstInfo();
-        Ships ships = new Ships();
-        ships.DisplayInfo();
+        WaterTransport waterTransport = new WaterTransport();
+        waterTransport.DisplayInfo();
+        AirTransport airTransport = new AirTransport();
+        airTransport.DisplayInfo();
     }
 
 }
